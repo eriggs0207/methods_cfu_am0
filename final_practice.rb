@@ -32,8 +32,11 @@ p square(10)
 
 
 # What is the return value of your method?
+#100 (number * number)
 # How many arguments did you pass your method?
+1
 # What data type was your argument(s)?
+integer
 
 
 
