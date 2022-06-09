@@ -24,7 +24,11 @@ p greeting
 
 
 #3: Write a method named square that takes in one number, and returns the square of that number
+def square(number)
+  number * number
+end
 
+p square(10)
 
 
 # What is the return value of your method?
