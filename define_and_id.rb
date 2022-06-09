@@ -11,17 +11,23 @@
 
 
 "Hello World".include?("Hello")
-
+#The include? method is called on the "Hello World"
+#include? is asking if the sting "Hello World" has the argument "Hello"
+#it does, so the return value is true
 
 "Hello World".end_with?("Hello")
-
+#the end_with? method is called on "Hello World"
+#end_with? is asking the string "Hello World" ends with the argument "Hello"
+#It does not.  So the return value is false
 
 "Hello World".end_with?("rld")
-
+#In this example it is the same method end_with? but the argument is "rld"
+#because the string does end in "rld" the return values is true
 
 12.even?
-
+#even? is a method used on integer varariables that will have a return value of either true or false
+#if the integer is even it the return value will be true, if the integer is not even it will have a return value of false
 
 18.next
-
-
+#next is a method that will create a return value with a value that comes after the argument
+#an example would be if you 4.next the return value would be 5
