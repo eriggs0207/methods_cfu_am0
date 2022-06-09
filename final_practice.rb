@@ -2,10 +2,10 @@
 # 1: Write a method named greeting that prints out a general greeting to someone
 
 def greeting
-  p "Hello"
+  "Hello"
 end
 
-greeting
+p greeting
 # What is the return value of your method?
 #"Hello"
 # How many arguments did you pass your method?
@@ -14,13 +14,7 @@ greeting
 
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
-name ="John"
 
-def custom_greeting(name)
-  p "Hello name"
-end
-
-custom_greeting
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
