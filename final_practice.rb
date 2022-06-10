@@ -15,18 +15,18 @@ p greeting
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
 def custom_greeting(name)
-  result = "What's up" + name
+  result = "What's up! " + name
   return result
 end
 
-p custom_greeting(" Johnny")
+p custom_greeting("Johnny")
 
 # What is the return value of your method?
 #What's Up Johnny"
 # How many arguments did you pass your method?
 #1
 # What data type was your argument(s)?
-#String 
+#String
 
 
 
@@ -49,6 +49,14 @@ p square(10)
 
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
+def greet_person(first, middle, last)
+  result = "Hello! My name is " + first + middle + last
+  return result
+end
+
+
+p greet_person("Erik ", "Cole ", "Riggs.")
+
 
 
 
