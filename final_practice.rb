@@ -61,5 +61,8 @@ p greet_person("Erik ", "Cole ", "Riggs.")
 
 
 # What is the return value of your method?
+#"Hello! My name is Erik Cole Riggs"
 # How many arguments did you pass your method?
+#3
 # What data type was your argument(s)?
+#String 
