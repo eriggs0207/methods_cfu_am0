@@ -14,12 +14,19 @@ p greeting
 
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
+def custom_greeting(name)
+  result = "What's up" + name
+  return result
+end
 
+p custom_greeting(" Johnny")
 
 # What is the return value of your method?
+#What's Up Johnny"
 # How many arguments did you pass your method?
+#1
 # What data type was your argument(s)?
-
+#String 
 
 
 
@@ -34,9 +41,9 @@ p square(10)
 # What is the return value of your method?
 #100 (number * number)
 # How many arguments did you pass your method?
-1
+#1
 # What data type was your argument(s)?
-integer
+#integer
 
 
 
